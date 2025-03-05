@@ -9,6 +9,6 @@ A demo of using shiny ui and server modules in a shiny dashboard
 - It appears that the R folder isn't automatically recognized so I added source calls in a setup context. (see lines 9, 32-35 in demo_shiny.qmd)
 - I put a server context into the quarto document instead of using a shiny.R or global.R file.
 - Here's a link to some <a href="https://quarto.org/docs/interactive/shiny/execution.html">documentation</a> with more possibile options: 
-- I have not tried this with shinylive/webR because one of the packages I use in the shiny has a curl dependency and isn't yet available for webR/WebAssembly
+- I have not tried this with shinylive/webR because one of the packages I use in the shiny has a <a href="https://github.com/posit-dev/r-shinylive/issues/31#issuecomment-1786739311">curl dependency</a> and isn't yet available for webR/WebAssembly
 
 
