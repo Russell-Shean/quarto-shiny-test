@@ -43,7 +43,7 @@ for(file in list.files("R", full.names = TRUE)){
 
   
   # include CSS
-  tags$link(rel = "stylesheet", type = "text/css", href = "css/styles.css")
+  tags$link(rel = "stylesheet", type = "text/css", href = "www/css/styles.css")
   
 
   titlePanel("Upload a gpx file to get started!")

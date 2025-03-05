@@ -25,23 +25,23 @@ activity_header_server <- function(id, activity_tracks, activity_track_points) {
       if(activity_tracks()$type == "hiking"){
         
         
-        as.character("<image class='cycling-icon' src='images/hiking.png'>")
+        as.character("<image class='cycling-icon' src='www/images/hiking.png'>")
         # <a href="https://www.flaticon.com/free-icons/hiking" title="hiking icons">Hiking icons created by juicy_fish - Flaticon</a>
         
       } else if(activity_tracks()$type == "running"){
         
         
-        as.character("<image class='cycling-icon' src='images/jogging.png'>")
+        as.character("<image class='cycling-icon' src='www/images/jogging.png'>")
         # https://www.flaticon.com/free-icons/jogging" title="jogging icons">Jogging icons created by Freepik - Flaticon</a>'
         
       } else if(activity_tracks()$type == "cycling"){
         
         # https://www.flaticon.com/free-icons/bicycle" title="bicycle icons">Bicycle icons created by Freepik - Flaticon</a>
-        as.character("<image class='cycling-icon' src='images/bike.png'>")
+        as.character("<image class='cycling-icon' src='www/images/bike.png'>")
         
       } else if(activity_tracks()$type == "walking"){
         
-        as.character("<image class='cycling-icon' src='images/walk.png'>")
+        as.character("<image class='cycling-icon' src='www/images/walk.png'>")
       }
       
       
